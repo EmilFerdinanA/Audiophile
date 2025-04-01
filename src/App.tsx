@@ -1,12 +1,11 @@
-import './App.css'
-import {Shop} from "./shared/components/Button.tsx";
+import { Header } from "./shared/components/Header.tsx";
+import { Hero } from "./shared/components/Hero.tsx";
 
-export const  App = () =>  {
+export const App = () => {
   return (
     <>
-        <Shop/>
+      <Header />
+      <Hero />
     </>
-  )
-}
-
-
+  );
+};
