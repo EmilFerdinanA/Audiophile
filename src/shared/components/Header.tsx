@@ -21,7 +21,11 @@ export const Header = () => {
           src={IconHamburger}
           alt={"hamburger"}
         />
-        <img className="relative md:left-14" src={Logo} alt={"logo"} />
+        <img
+          className="relative md:left-14 lg:left-0"
+          src={Logo}
+          alt={"logo"}
+        />
         <ul className={"hidden lg:flex gap-8 subtitle text-white"}>
           {MENUS.map((menu, index) => (
             <li key={index} className="hover:text-primary cursor-pointer">
