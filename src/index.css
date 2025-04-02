@@ -10,7 +10,6 @@ body {
   line-height: 1.6;
   font-size: 15px;
   height: 100vh;
-  width: 100vw;
   margin: 0;
   padding: 0;
 }
@@ -74,6 +73,30 @@ h6 {
 
 .background-hero {
   @apply bg-[url(src/assets/home/mobile/image-header.jpg)] md:bg-[url(src/assets/home/tablet/image-header.jpg)] lg:bg-[url(src/assets/home/desktop/image-hero.jpg)];
+}
+
+
+.p-base {
+  @apply px-6 md:px-10 lg:px-40;
+}
+
+/*Scroolbar*/
+::-webkit-scrollbar {
+  width: 8px; /* Lebar scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #000000; /* Warna background track */
+  border-radius: 10px; /* Sudut melengkung */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Warna thumb */
+  border-radius: 10px; /* Sudut melengkung */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Warna saat hover */
 }
 
 @theme {

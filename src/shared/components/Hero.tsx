@@ -1,4 +1,4 @@
-import { Button } from "./Button";
+import { SeeProductButton } from "./Button";
 
 export const Hero = () => {
   return (
@@ -14,7 +14,7 @@ export const Hero = () => {
           Experience natural, lifelike audio and exceptional build quality made
           for the passionate music enthusiast.
         </span>
-        <Button />
+        <SeeProductButton />
       </div>
     </div>
   );
