@@ -26,7 +26,7 @@ export const SeeProductButton: React.FC<ButtonProps> = ({
 export const ShopButton = () => {
   return (
     <button
-      className={`h-12 w-40 subtitle flex items-center justify-center hover:text-primary gap-3`}
+      className={`subtitle flex items-center justify-center hover:text-primary gap-3 cursor-pointer`}
     >
       SHOP
       <span>
