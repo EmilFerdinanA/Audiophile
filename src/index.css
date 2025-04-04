@@ -75,6 +75,11 @@ h6 {
   @apply bg-[url(src/assets/home/mobile/image-header.jpg)] md:bg-[url(src/assets/home/tablet/image-header.jpg)] lg:bg-[url(src/assets/home/desktop/image-hero.jpg)];
 }
 
+/*Banner*/
+.background-zx9 {
+  @apply bg-primary bg-[url(src/assets/home/desktop/pattern-circles.svg)] bg-[center_top_-7.8rem] md:bg-[center_top_-19rem] lg:bg-[top_-2rem_left_-7rem] bg-no-repeat bg-cover md:bg-auto;
+}
+
 
 .p-base {
   @apply px-6 md:px-10 lg:px-40;
@@ -106,4 +111,6 @@ h6 {
   --color-accent: #fbaf85; /* Warna aksen */
   --color-white: #ffffff; /* Warna putih */
   --color-black: #000000; /* Warna hitam */
+
+  --backgorund-circle: url(src/assets/home/desktop/pattern-circles.svg);
 }

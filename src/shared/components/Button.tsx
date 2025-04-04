@@ -2,7 +2,7 @@ import React from "react";
 import Arrow from "@Assets/icon-arrow-right.svg";
 
 interface ButtonProps {
-  variant?: "primary" | "secondary";
+  variant?: "primary" | "secondary" | "tertiary";
 }
 
 export const SeeProductButton: React.FC<ButtonProps> = ({
@@ -12,6 +12,7 @@ export const SeeProductButton: React.FC<ButtonProps> = ({
     primary: "bg-primary hover:bg-accent text-white",
     secondary:
       "bg-white hover:bg-black text-black hover:text-white outline-none border-2 border-black",
+    tertiary: "bg-black hover:bg-[#4C4C4C] text-white",
   };
 
   return (
