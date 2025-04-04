@@ -11,7 +11,7 @@ export const SeeProductButton: React.FC<ButtonProps> = ({
   const variantStyles = {
     primary: "bg-primary hover:bg-accent text-white",
     secondary:
-      "bg-white hover:bg-black text-black hover:text-white outline-none border-2 border-black",
+      "hover:bg-black text-black hover:text-white outline-none border-2 border-black",
     tertiary: "bg-black hover:bg-[#4C4C4C] text-white",
   };
 
