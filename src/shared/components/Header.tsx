@@ -1,6 +1,7 @@
 import Logo from "@Assets/logo.svg";
 import IconCart from "@Assets/icon-cart.svg";
 import IconHamburger from "@Assets/icon-hamburger.svg";
+import { Link } from "react-router";
 
 const MENUS = ["HOME", "HEADPHONES", "SPEAKERS", "EARPHONES"];
 
@@ -29,7 +30,7 @@ export const Header = () => {
         <ul className={"hidden lg:flex gap-8 subtitle text-white"}>
           {MENUS.map((menu, index) => (
             <li key={index} className="hover:text-primary cursor-pointer">
-              {menu}
+              <Link to={`category/${menu.toLowerCase()}`}>{menu}</Link>
             </li>
           ))}
         </ul>
