@@ -1,7 +1,7 @@
-import Logo from "@Assets/logo.svg";
-import Facebook from "@Assets/icon-facebook.svg";
-import Twitter from "@Assets/icon-twitter.svg";
-import Instagram from "@Assets/icon-instagram.svg";
+import Logo from "/assets/logo.svg";
+import Facebook from "/assets/icon-facebook.svg";
+import Twitter from "/assets/icon-twitter.svg";
+import Instagram from "/assets/icon-instagram.svg";
 
 const MENUS = ["HOME", "HEADPHONES", "SPEAKERS", "EARPHONES"];
 

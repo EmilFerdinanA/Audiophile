@@ -1,4 +1,4 @@
-import Speaker from "@Assets/home/mobile/image-speaker-zx9.png";
+import Speaker from "/assets/home/mobile/image-speaker-zx9.png";
 import { SeeProductButton } from "@Shared/components/Button.tsx";
 
 export const ZX9 = () => {

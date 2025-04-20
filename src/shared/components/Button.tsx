@@ -1,5 +1,5 @@
 import React from "react";
-import Arrow from "@Assets/icon-arrow-right.svg";
+import Arrow from "/assets/icon-arrow-right.svg";
 
 interface ButtonProps {
   variant?: "primary" | "secondary" | "tertiary";

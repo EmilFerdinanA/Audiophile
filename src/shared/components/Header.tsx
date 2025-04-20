@@ -1,6 +1,6 @@
-import Logo from "@Assets/logo.svg";
-import IconCart from "@Assets/icon-cart.svg";
-import IconHamburger from "@Assets/icon-hamburger.svg";
+import Logo from "/assets/logo.svg";
+import IconCart from "/assets/icon-cart.svg";
+import IconHamburger from "/assets/icon-hamburger.svg";
 import { Link, useLocation, useNavigate } from "react-router";
 import { useEffect, useState } from "react";
 
