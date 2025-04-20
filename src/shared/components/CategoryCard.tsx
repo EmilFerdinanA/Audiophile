@@ -6,7 +6,7 @@ const CATEGORY = [
   { src: "/image-earphones.png", alt: "earphones", title: "EARPHONES" },
 ];
 
-export const Category = () => {
+export const CategoryCard = () => {
   return (
     <div
       className={

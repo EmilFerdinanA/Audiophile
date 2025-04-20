@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 const MENUS = ["HOME", "HEADPHONES", "SPEAKERS", "EARPHONES"];
 
 export const Header = () => {
-  const location = useLocation();
+  const { pathname } = useLocation();
   const [isScrolled, setIsScrolled] = useState(false);
 
   const navigate = useNavigate();
@@ -20,7 +20,7 @@ export const Header = () => {
 
   return (
     <div
-      className={`${isScrolled || location.pathname !== "/" ? "bg-black fixed" : "absolute"} flex justify-center h-24 px-6 md:px-10 lg:px-40  top-0 w-full z-50`}
+      className={`${pathname === "/" ? (isScrolled ? "bg-black fixed" : "absolute") : "sticky bg-black"} flex justify-center h-24 px-6 md:px-10 lg:px-40  top-0 w-full z-50`}
     >
       <div
         className={
